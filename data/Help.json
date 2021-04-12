@@ -1,0 +1,144 @@
+{
+  "Help": [
+    {
+      "Title": "Help - 1/3 - Commandes générales",
+      "Fields": [
+        {
+          "FieldTitle": "`help`",
+          "FieldContent": "Afficher cette page."
+        },
+        {
+          "FieldTitle": "`help role`",
+          "FieldContent": "Afficher la liste des identifiants des roles."
+        },
+        {
+          "FieldTitle": "`help [role/règle de jeu]`",
+          "FieldContent": "Afficher la description d'un rôle/règle de jeu."
+        },
+        {
+          "FieldTitle": "`start`",
+          "FieldContent": "Commencer une nouvelle partie."
+        },
+        {
+          "FieldTitle": "`cancel`",
+          "FieldContent": "Arrêter la partie en cours."
+        },
+        {
+          "FieldTitle": "`launch`",
+          "FieldContent": "Faire démarrer la partie."
+        }
+      ]
+    },
+    {
+      "Title": "Help - 2/3 - Commandes de configuration de partie",
+      "Fields": [
+        {
+          "FieldTitle": "`role [+/-] [rôle] [itération, 1 par défaut]`",
+          "FieldContent": "Ajouter/supprimer un role de la partie."
+        },
+        {
+          "FieldTitle": "`gamerule [règle de jeu] [on/off/valeur numérique]`",
+          "FieldContent": "Activer, désactiver ou paramétrer une règle de jeu."
+        },
+        {
+          "FieldTitle": "`whitelist [on/off]`",
+          "FieldContent": "Toggle the whilelist."
+        },
+        {
+          "FieldTitle": "`invite [mention]`",
+          "FieldContent": "Invite a player to the current game."
+        },
+        {
+          "FieldTitle": "`kick [mention]`",
+          "FieldContent": "Kick a player from the current game."
+        },
+        {
+          "FieldTitle": "`ban [mention]`",
+          "FieldContent": "Ban a player from the current game."
+        }
+      ]
+    },
+    {
+      "Title": "Help - 3/3 - Listes",
+      "Fields": [
+        {
+          "FieldTitle": "**Rôles villageois**",
+          "FieldContent": "`Simple_villageois`,`Cupidon`"
+        },
+        {
+          "FieldTitle": "**Rôles Loups-garous**",
+          "FieldContent": "`Loup-garou`,`Infect_pere_des_loups`"
+        },
+        {
+          "FieldTitle": "**Rôles neutres**",
+          "FieldContent": "`Loup-garou_blanc`,`Assassin`"
+        },
+        {
+          "FieldTitle": "**Règles de jeu**",
+          "FieldContent": "`Maire`,`Couple_aleatoire`,`Malediction_du_corbeau`"
+        }
+      ]
+    }
+  ],
+  "RolesList": {
+    "simple_villageois": {
+      "Title": "Simple Villageois",
+      "Side": "Village",
+      "Description": "Ton but est d'éliminer les loups-garous et les rôles neutres. Pour cela tu ne dispose malheureusement d'aucun pouvoir particulier si ce n'est ton propre esprit de déduction !",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704052741688918016/simple_villageois.png"
+    },
+    "cupidon": {
+      "Title": "Cupidon",
+      "Side": "Village",
+      "Description": "Au début de la première nuit, tu choisiras deux âmes soeurs pour les mettre en couple. Dès lors, tu pourras soit gagner avec le village en éliminant les loups-garous et les rôles neutres, soit gagner avec ton couple. Attention, si un des membres du couple meurt, l'autre se suicidera.",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704052798181998642/cupidon.png"
+    },
+    "corbeau": {
+      "Title": "Corbeau",
+      "Side": "Village",
+      "Description": "Ton but est d'éliminer les loups-garous et les rôles neutres. Pour cela à chaque fin de nuit tu pourras maudire un joueur qui se verra attribuer entre 1 et 3 votes d'office pour le vote du village (param�table dans la configuration de la partie)",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704712525324746842/Corbeau.png"
+    },
+    "Loup_garou": {
+      "Title": "Loup-garou",
+      "Side": "Werewolves",
+      "Description": "Ton but est d'éliminer les villageois et les rôles neutres. Chaque nuit tu te réveilleras avec tes comparses loups pour dévorer un membre du village.",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704052838124355684/loup-garou.png"
+    },
+    "infect_pere_des_loups": {
+      "Title": "Infect père des loups",
+      "Side": "Werewolves",
+      "Description": "Ton but est d'éliminer les villageois et les rôles neutres. Chaque nuit tu te réveilleras avec tes comparses loups pour dévorer un membre du village. De plus, une fois dans la partie, tu pourras choisir d'infecter votre victime pour en faire un loup-garou __qui conservera ses pouvoirs de villageois__.",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704052900770480238/infect_pere_des_loups.png"
+    },
+    "loup_garou_blanc": {
+      "Title": "Loup-garou blanc",
+      "Side": "Neutral",
+      "Description": "Ton but est d'éliminer tout le monde. Chaque nuit tu te réveilleras avec les autres loups pour dévorer un membre du village. De plus, une nuit sur deux tu te réveilleras une deuxième fois, seul, pour dévorer un des autres loups-garous.",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704052968248574043/loup-garou_blanc.png"
+    },
+    "assassin": {
+      "Title": "Assassin",
+      "Side": "Neutral",
+      "Description": "Ton but est d'éliminer tout le monde. Même la nuit, tu ne te sépare jamais de tes couteaux et tu es ainsi invulnérable face aux attaques des loups. De plus, une nuit sur deux tu te réveilleras pour tuer un membre du village.",
+      "Url": "https://cdn.discordapp.com/attachments/704052690308694096/704052998422397108/assassin.PNG"
+    }
+  },
+  "Gamerules": {
+    "maire": {
+      "Title": "Maire",
+      "Description": "Activer ou désactiver la présence du maire : il possède un vote compte double et, en cas d'égalité lors du vote, peut décider qui sera tué.",
+      "Url": "https://cdn.discordapp.com/attachments/704057164825624687/704057233389912125/maire.png"
+    },
+    "couple_aleatoire": {
+      "Title": "Couple aléatoire",
+      "Description": "Activer ou désactiver le couple aléatoire : s'il n'y a pas de cupidon dans la partie et la règle est activée, un couple aléatoire sera choisi parmi les membres du village.",
+      "Url": "https://cdn.discordapp.com/attachments/704057164825624687/704061300434534500/couple.png"
+    },
+    "malediction_du_corbeau": {
+      "Title": "Malédiction du corbeau",
+      "Description": "Modifier le nombres de votes de la malédiction du corbeau (varie de 1 à 3 | 2 par défaut).",
+      "Url": "https://cdn.discordapp.com/attachments/704057164825624687/704063052823396522/puissance_corbeau.png"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Role": [
+    {
+      "fullName": "Simple villageois",
+      "name": "sv",
+      "id": 0,
+      "side": "Village",
+      "emote": "<:sv:708408665559924807>"
+    },
+    {
+      "fullName": "Cupidon",
+      "name": "cup",
+      "id": 1,
+      "side": "Village",
+      "emote": "<:cupi:708408781062799438>"
+    },
+    {
+      "fullName": "Corbeau",
+      "name": "cor",
+      "id": 2,
+      "side": "Village",
+      "emote": ""
+    }
+  ]
+}

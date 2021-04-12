@@ -1,0 +1,166 @@
+{
+  "CommandList": [
+    {
+      "Command": "save",
+      "Alias": [
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.generalGame.GameManager",
+      "Method": "save"
+    },
+    {
+      "Command": "load",
+      "Alias": [
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.generalGame.GameManager",
+      "Method": "load"
+    },
+    {
+      "Command": "shutdown",
+      "Alias": [
+        "sd"
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.main.Shutdown",
+      "Method": "ShutdownBot"
+    },
+    {
+      "Command": "removecategory",
+      "Alias": [
+        "rc"
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.generalGame.Debug",
+      "Method": "RemoveCategory"
+    },
+    {
+      "Command": "displaygame",
+      "Alias": [
+        "dg"
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.generalGame.Debug",
+      "Method": "displayGame"
+    },
+    {
+      "Command": "help",
+      "Alias": [
+        "h",
+        "?"
+      ],
+      "Permission": "All",
+      "Class": "me.astri.discordgarou.generalGame.Help",
+      "Method": "DisplayHelp"
+    },
+    {
+      "Command": "newgame",
+      "Alias": [
+        "new"
+      ],
+      "Permission": "All",
+      "Class": "me.astri.discordgarou.gameConfiguration.NewGame",
+      "Method": "StartNewGame"
+    },
+    {
+      "Command": "ban",
+      "Alias": [
+        "ban"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.GameModeration",
+      "Method": "Ban"
+    },
+    {
+      "Command": "unban",
+      "Alias": [
+        "pardon"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.GameModeration",
+      "Method": "Unban"
+    },
+    {
+      "Command": "kick",
+      "Alias": [
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.GameModeration",
+      "Method": "Kick"
+    },
+    {
+      "Command": "banlist",
+      "Alias": [
+        "bl"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.GameModeration",
+      "Method": "BanList"
+    },
+    {
+      "Command": "role",
+      "Alias": [
+        "r"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.EditRoleConfig",
+      "Method": "EditRole"
+    },
+    {
+      "Command": "cancel",
+      "Alias": [
+        "c"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.Cancel",
+      "Method": "CancelGame"
+    },
+    {
+      "Command": "gamerule",
+      "Alias": [
+        "g",
+        "gr"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.EditGameruleConfig",
+      "Method": "EditGamerule"
+    },
+    {
+      "Command": "start",
+      "Alias": [
+        "s",
+        "launch",
+        "l"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.Start",
+      "Method": "StartGame"
+    },
+    {
+      "Command": "whitelist",
+      "Alias": [
+        "wl"
+      ],
+      "Permission": "GameOwner",
+      "Class": "me.astri.discordgarou.gameConfiguration.WhiteListClass",
+      "Method": "Whitelist"
+    },
+    {
+      "Command": "test",
+      "Alias": [
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.generalGame.Test",
+      "Method": "test"
+    },
+    {
+      "Command": "forceAddPlayer",
+      "Alias": [
+        "addplayer"
+      ],
+      "Permission": "BotOwner",
+      "Class": "me.astri.discordgarou.generalGame.Debug",
+      "Method": "forceAddPlayer"
+    }
+  ]
+}
